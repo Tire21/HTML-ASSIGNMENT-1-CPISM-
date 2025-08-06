@@ -1,0 +1,12 @@
+* {
+  color: hsla(175,100%, 50%,0.329);
+}
+body{
+    /* background-color: rgb(120,45,67);
+     */
+}
+body {
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
