@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+   grid-template-columns: 100px 100px 100px 100px;
+   grid-template-rows: auto auto auto auto;
+   justify-content: center;
+   align-content: center;
+   /*gap: 30px;*/
+    /*grid-template-columns: 150px 150px 150px 150px;*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/   
+    /*column-gap: 30px;*/
+    /*row-gap: 30px;*/
+}
+
+.grid {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    font-size: 4rem;
+}
+.grid-container .item-2 {
+    /*grid-column: 1 /5;*/
+}
+.grid-container .item-10 {
+   /* grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;*/
+    /* This syntax will take column 4 line and 3 column cells
+     grid-column-start: 1;
+     grid-row-end: 4;*/
+     /*grid-column: 1 / 5;
+     grid-row: 4 / 5;*/
+     /*grid-column: 1 / span 3;
+     grid-row: 1 /span 3;
+     /*grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end; */
+     grid-area: 1  / 1 / span  4 / span 2;
+
+}
