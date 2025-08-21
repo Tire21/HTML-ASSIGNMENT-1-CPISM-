@@ -144,68 +144,59 @@ ul li a {
 }
 
 /* Newsletter */
+
 .newsletter {
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
 }
-
-.newsletter h2 {
+.newsletter p {
     text-align: left;
+    color: white;
+    width: 500px;
 }
 .control {
+   text-align: left;
+  color: rgb(94, 152, 200);
   font-size: 20px;
   margin-bottom: 20px;
-  position: absolute;
-  right: 40px;
-  padding: 20px;
-  list-style: none;
+padding: 20px;
   border-radius: 10px;
 }
-
-.color {
-    color: white;
-}
-
-
 .subscribe-box {
-  margin-top: 15px;
-  
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
-
 .subscribe-box input {
   padding: 10px;
-  border: none;
-  color: #1f2937;
   border-radius: 6px;
+  border: none;
   width: 250px;
-  text-align: justify;
-  align-items: right;
 }
-
 .subscribe-box button {
   padding: 10px 20px;
   border: none;
-  background: #0ea5e9;
-  color: none;
   border-radius: 6px;
-  margin-left: 10px;
+  background-color: #1e90ff;
+  color: white;
   cursor: pointer;
 }
-
-.hr {
-    padding: 0;
-    margin: 0;
+.subscribe-box button:hover {
+  background-color: #0066cc;
 }
+
 /* Footer */
 footer {
   text-align: left;
   font-size: 14px;
   padding: 20px 0;
   border-top: 1px solid #374151;
+  color: white;
 }
 
 .icons  {
     text-align: end;
+    color: #1e90ff;
 }
 
 input {
@@ -214,7 +205,7 @@ input {
     height: 30px;
    align-items: center;
   margin: 0 10px;
-  font-size: 18px;
+  font-size: 18px; /*smaller icons */
   text-decoration: none;
   background-color: lightgrey;
 }
